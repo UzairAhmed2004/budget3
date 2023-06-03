@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-size:arial;
+}
+body{
+    background-color:rgb(32, 29, 213)
+}
+.Parent-container{
+    width:90%;
+    font-size:16px ;
+    max-width:43.75em;
+    margin:1em auto;
+}
+.heading{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:rgb(171, 182, 182);
+    font-size:40px;
+}
+.sub-container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+    
+}
+.div1 , .div2{
+    background-color: #79a3e2;
+        padding:1.25em 0.9em;
+        border-radius:0.3em;
+        margin:30px;
+        box-shadow: 0 0.6em 1.2em rgba(129, 126, 138, 0.752);
+   
+}
+input{
+    display:block;
+    width:100%;
+   margin:10px;
+    border:1px solid #d0d0d0;
+    border-radius:0.3em;
+    color:rgb(17, 16, 16);
+    outline:none;
+    font-weight:none;
+}
+.container1{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    justify-content: space-around;
+    border:2px solid rgb(23, 15, 132);
+    font-size:20px;
+    border-width:20px;
+    background-color:rgb(52, 133, 203);
+}
+
+.btn{
+    border-radius:5px;
+    color:rgb(246, 246, 255);
+    background-color:rgb(17, 17, 212)
+}
+.decorate{
+    color:rgb(246, 246, 255);
+}
+#delete-btn:focus{
+    outline:0
+}
+.exp-list1{
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.product{
+    color:white;
+    font-size:22px;
+}
+.amount{
+    color:white;
+    font-size:22px;
+}
+.date{
+    color:white;
+    font-size:22px;
+}
+.decorate1{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.explist{
+    box-shadow: 0 0.6em 1.2em rgba(249, 248, 252, 0.752);
+    border-radius: 12px;
+    padding:12px;
+}
+.listbox{
+    margin:20px;
+}
+#expenselist{
+    margin:10px;
+    background-color:rgb(92, 86, 203);
+}

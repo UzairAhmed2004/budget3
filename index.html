@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="./style21.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="./app10.js" defer></script>
+</head>
+<body>
+    
+    <div class="Parent-container">
+        <h1 class="heading">Budget App</h1>
+        <div class="sub-container">
+            <!-- input box1       -->
+                  <div class="div1">
+                <h3 class="decorate">Set Budget</h3>
+                <input type="number" id="write-amount1" placeholder="Enter amount here">
+                <button class="btn" id="button-1">Set Amount</button>
+            </div>
+             <!-- input box2       -->
+            <div class="div2">
+                <h3 class="decorate"> Expenses</h3>
+                <input type="text" id="write-expense" placeholder="Enter expense name">
+                <h4 class="decorate">Cost of Expense(Description)</h4>
+                <input type="number" id="cost-expense" placeholder="Enter cost of expense here">
+                <h4 class="decorate">Date of Expense</h4>
+                <input type="date" id="date-1" placeholder="Enter date here">
+                <button class="btn" id="button-2">Add Amount</button>
+            </div>
+            </div>
+            <!-- Horizontal bar -->
+            <div class="container1 ,  decorate1">
+                <div>
+                    <p class="decorate">Total Budget</p>
+                    <span class="decorate" id="current-balance">0</span>
+                   </div>
+                   <div>
+                       <p class="decorate">Expenses</p>
+                       <span class="decorate" id="expense-balance">0</span>
+                   </div>
+                   <div>  
+                       <p class="decorate">Balance</p>
+                       <span class="decorate" id="remaining-balance">0</span>
+                   </div>
+            </div>
+        </div>
+    </div>
+     <!-- list -->
+    <div class="explist">
+        <h2 class="exp-list1">Expense  List</h2>
+        <div class="listbox" id="expenselist">
+            
+        </div>
+    </div>
+</body>
+</html>
